@@ -1,0 +1,13 @@
+actions:
+  workflow:
+    name: ".NET Container Build"
+    file: dotnet-container.yml
+    author: dkoch84
+  workflow:
+    name: "Terraform Plan/Apply"
+    file: terraform.yml
+    author: dkoch84
+  workflow:
+    name: "Terraform Destroy"
+    file: terraform-destroy.yml
+    author: dkoch84

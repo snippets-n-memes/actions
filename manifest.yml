@@ -2,17 +2,17 @@ repo:
   name: "Snippets n' Memes Actions"
   version: 1.0
   actions:
-  - dotnet:
+    dotnet:
       name: ".NET Container Build"
       version: 1.0
       file: dotnet-container.yml
       author: dkoch84
-  - terraform:
+    terraform:
       name: "Terraform Plan/Apply"
       version: 1.0
       file: terraform.yml
       author: dkoch84
-  - terraform-destroy:
+    terraform-destroy:
       name: "Terraform Destroy"
       version: 1.0
       file: terraform-destroy.yml
